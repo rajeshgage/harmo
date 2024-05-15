@@ -1,0 +1,124 @@
+.footer {
+    background-color: #ea6e08;
+    color: #fff;
+    margin-top: -20px;
+}
+.footer-wave-svg {
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    position: relative;
+    top: -1px;
+    width: 100%;
+    margin-top: -20px;
+
+}
+.footer-wave-path {
+    fill: #fffff2;
+}
+
+.footer-upper-content{
+    background-color: #141044;
+}
+.footer-lower-content{
+    background-color: #04021b;
+    color: #fff;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+  align-items: center;
+}
+
+.footer-icon {
+    margin: 5px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 40px; 
+    height: 40px; 
+    border: 1px solid #ea6e08; 
+    color: #ea6e08;
+    border-radius: 50%;
+}
+
+.footer-col{
+    /* width: 25%; */
+    padding: 0 15px;
+ }
+ .footer-col h4{
+     font-size: 18px;
+     color: #ffffff;
+     text-transform: capitalize;
+     margin-bottom: 35px;
+     font-weight: 500;
+     position: relative;
+ }
+ .footer-col h4::before{
+     content: '';
+     position: absolute;
+     left:0;
+     bottom: -10px;
+     background-color: #e91e63;
+     height: 2px;
+     box-sizing: border-box;
+     width: 50px;
+ }
+ .footer-col ul li:not(:last-child){
+     margin-bottom: 10px;
+ }
+ .footer-col ul li a{
+     font-size: 16px;
+     text-transform: capitalize;
+     color: #ffffff;
+     text-decoration: none;
+     font-weight: 300;
+     color: #bbbbbb;
+     display: block;
+     transition: all 0.3s ease;
+ }
+ .footer-col ul li a:hover{
+     color: #ffffff;
+     padding-left: 8px;
+ }
+ .footer-col .social-links a{
+     display: inline-block;
+     height: 40px;
+     width: 40px;
+     background-color: rgba(255,255,255,0.2);
+     margin:0 10px 10px 0;
+     text-align: center;
+     line-height: 40px;
+     border-radius: 50%;
+     color: #ffffff;
+     transition: all 0.5s ease;
+ }
+ .footer-col .social-links a:hover{
+     color: #24262b;
+     background-color: #ffffff;
+ }
+
+ .subscribe-form {
+    position: relative;
+    overflow: hidden;
+  }
+  .subscribe-form input {
+    width: 100%;
+    padding: 14px 35px;
+    background: #2E2E2E;
+    border: 1px solid #2E2E2E;
+    color: #fff;
+    border-radius: 30px;
+  }
+  .subscribe-form button {
+      position: absolute;
+      right: 0;
+      background: #ff5e14;
+      padding: 14px 50px;
+      border: 1px solid #ff5e14;
+      color: #fff;
+      top: 0;
+      border-radius: 30px;
+  }
+ 
